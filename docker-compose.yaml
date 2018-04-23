@@ -8,7 +8,7 @@ version: '3'
 services:
   liquidsoap:
     container_name: liquidsoap
-    image: arch-liquidsoap:latest
+    image: m0rf30/arch-liquidsoap:latest
     tty: true
     command: 'liquidsoap -v /radio/radio.liq'
     privileged: true
