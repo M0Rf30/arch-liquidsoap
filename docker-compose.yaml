@@ -1,0 +1,16 @@
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+version: '3'
+
+services:
+  liquidsoap:
+    container_name: liquidsoap
+    image: arch-liquidsoap:latest
+    tty: true
+    command: 'liquidsoap -v /radio/radio.liq'
+    privileged: true
+    volumes:    
+    - .:/radio
