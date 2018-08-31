@@ -4,6 +4,5 @@ RUN yay -Syu --noconfirm
 RUN yay -S ocaml-base-git --noconfirm
 RUN yay -S liquidsoap --noconfirm
 RUN yay -Yc --noconfirm
-RUN yay -Rscn $(pacman -Qdqt) --noconfirm
 RUN yes y | yay -Scc
 USER liquidsoap
