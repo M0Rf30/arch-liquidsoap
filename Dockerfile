@@ -37,5 +37,5 @@ RUN yay -S ocaml-vorbis --noconfirm
 RUN yay -S ocaml-xmlplaylist --noconfirm
 RUN yay -S ocaml-yojson --noconfirm
 RUN yay -S liquidsoap --noconfirm
-RUN yay -Scc --noconfirm
+RUN yes | yay -Scc --noconfirm
 USER liquidsoap
