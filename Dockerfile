@@ -13,10 +13,12 @@ RUN yay -S ocaml-faad --noconfirm
 RUN yay -S ocaml-fdkaac --noconfirm
 RUN yay -S ocaml-ffmpeg --noconfirm
 RUN yay -S ocaml-flac --noconfirm
+RUN yay -S ocaml-frei0r --noconfirm
 RUN yay -S ocaml-gavl --noconfirm
 RUN yay -S ocaml-gd4o --noconfirm
 RUN yay -S ocaml-gstreamer --noconfirm
 RUN yay -S ocaml-inotify --noconfirm
+RUN yay -S ocaml-ladspa --noconfirm
 RUN yay -S ocaml-lame --noconfirm
 RUN yay -S ocaml-lastfm --noconfirm
 RUN yay -S ocaml-lo --noconfirm
