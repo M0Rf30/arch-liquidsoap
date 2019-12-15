@@ -11,6 +11,5 @@ services:
     image: m0rf30/arch-liquidsoap:latest
     tty: true
     command: 'liquidsoap -v /radio/radio.liq'
-    privileged: true
     volumes:    
     - .:/radio
